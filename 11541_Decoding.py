@@ -16,6 +16,16 @@ For each case, output the case number followed by the decoded string. Adhere to 
 format.
 You may assume the decoded string wont have a length greater than 200 and it will only consist of
 upper case alphabets.
+
+[Sample Input]
+3
+A2B4D1A2
+A12
+A1B1C1D1
+[Sample Output]
+Case 1: AABBBBDAA
+Case 2: AAAAAAAAAAAA
+Case 3: ABCD
 '''
 import re
 
